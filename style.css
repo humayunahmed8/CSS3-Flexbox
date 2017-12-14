@@ -1,3 +1,11 @@
+
+/* Reset CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
 /* Main content */
 .container{
 	width: 1170px;
@@ -32,14 +40,32 @@
     display:  flex;
     border: 4px solid black;
     /* flex-direction: column/column-reverse/row/row-reverse; */
-    flex-direction: column-reverse;
+    flex-direction: column;
     /* justify-content: center/flex-start/flex-end/space-between/space-around; */
     /* flex-wrap: no-wrap/wrap/wrap-reverse; */
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     /* justify-content: center; */
     /* justify-content: flex-start; */
     height: 400px;
     /* justify-content: flex-end; */
     /* justify-content:  space-around; */
+    justify-content: center;
+}
+
+
+/* sidebar stylesheet */
+.sidebar {
+    background:  #ddd;
+    width: 15vw;
+    height:  100vh;
+    font-family:  raleway;
+    font-size:  18px;
+    display: flex;
+    flex-direction:  column;
     justify-content: space-between;
+    padding: 10px;
+}
+
+.item {
+    margin: 5px 0;
 }
