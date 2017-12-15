@@ -24,14 +24,14 @@
 }
 
 /* Box Color */
-.box.box-1 {background:  #e51400;align-self: flex-start;}
-.box.box-2 {background: #fa6800;}
-.box.box-3 {background: #f0a30a;align-self: flex-end;}
-.box.box-4 {background: #e3c800;}
-.box.box-5 {background:  #a4c400;align-self: flex-start;}
-.box.box-6 {background: #60a917;}
-.box.box-7 {background: #00aba9;align-self: stretch;}
-.box.box-8 {background:  #1ba1e2;}
+.box.box-1 {background:  #e51400;/* align-self: flex-start; */order: 8;}
+.box.box-2 {background: #fa6800;order: 7;}
+.box.box-3 {background: #f0a30a;/* align-self: flex-end; */order: 6;}
+.box.box-4 {background: #e3c800;order: 5;}
+.box.box-5 {background:  #a4c400;/* align-self: flex-start; */order: 4;}
+.box.box-6 {background: #60a917;order: 3;}
+.box.box-7 {background: #00aba9;/* align-self: stretch; */order: 2;}
+.box.box-8 {background:  #1ba1e2;order: 1;}
 
 
 /* Container */
