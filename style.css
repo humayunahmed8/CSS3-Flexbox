@@ -1,4 +1,3 @@
-
 /* Reset CSS */
 *{
     margin: 0;
@@ -25,13 +24,13 @@
 }
 
 /* Box Color */
-.box.box-1 {background:  #e51400;}
+.box.box-1 {background:  #e51400;align-self: flex-start;}
 .box.box-2 {background: #fa6800;}
-.box.box-3 {background: #f0a30a;}
+.box.box-3 {background: #f0a30a;align-self: flex-end;}
 .box.box-4 {background: #e3c800;}
-.box.box-5 {background:  #a4c400;}
+.box.box-5 {background:  #a4c400;align-self: flex-start;}
 .box.box-6 {background: #60a917;}
-.box.box-7 {background: #00aba9;}
+.box.box-7 {background: #00aba9;align-self: stretch;}
 .box.box-8 {background:  #1ba1e2;}
 
 
@@ -40,18 +39,20 @@
     display:  flex;
     border: 4px solid black;
     /* flex-direction: column/column-reverse/row/row-reverse; */
-    flex-direction: column-reverse;
+    flex-direction: row;
     /* justify-content: center/flex-start/flex-end/space-between/space-around; */
     /* flex-wrap: no-wrap/wrap/wrap-reverse; */
     /* justify-content: center; */
     /* justify-content: flex-start; */
-    flex-wrap: wrap;
-    height: 316px;
+    /* flex-wrap: wrap; */
+    height: 400px;
     /* justify-content: flex-end; */
     /* justify-content:  space-around; */
     justify-content: center;
     /* align-items: center/baseline/flex-start/flex-end; */
-    align-content: center;
+    /* align-self: center; */
+    /* align-content: center; */
+    align-items: center;
 }
 
 
