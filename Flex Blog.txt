@@ -1,0 +1,8 @@
+Important Blog for Flexbox:
+===========================
+
+1. flex-basis: http://gedd.ski/post/the-difference-between-width-and-flex-basis/
+==============
+
+2. complete guide to flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+=============================

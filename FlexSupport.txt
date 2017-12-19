@@ -1,0 +1,17 @@
+A Note On Browser Support:
+==========================
+
+	1. Subject:Flexbox: How to Deal with Older Browsers?
+	____________________________________________________
+	https://medium.com/css-mine/flexbox-how-to-deal-with-older-browsers-fbf6eb8c7a65
+
+
+	2. Browser Support Information and Their Prefixes:
+	__________________________________________________
+	https://caniuse.com/
+
+
+	3. Auto Prefixer Website in Online:
+	__________________________________
+	https://autoprefixer.github.io/
+	
